@@ -1,2 +1,18 @@
-theme: jekyll-theme-minimal
-title: Nameet Jain
+title: Nameet Jain | Engineering Manager | Java & Cloud Architect
+description: >
+  Engineering Manager with 14+ years of experience in Java, Spring Boot,
+  Microservices, Apache OFBiz, AWS, Kubernetes, and scalable backend systems
+  for E-commerce, ERP, and Omnichannel Retail.
+url: "https://nameet-jain.github.io"
+
+author:
+  name: Nameet Jain
+  role: Engineering Manager
+
+linkedin_username: nameet-jain
+
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
