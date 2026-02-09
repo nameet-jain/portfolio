@@ -1,18 +1,40 @@
-title: Nameet Jain | Engineering Manager | Java & Cloud Architect
+title: Nameet Jain | Engineering Manager | Backend & Cloud Architect
 description: >
-  Engineering Manager with 14+ years of experience in Java, Spring Boot,
-  Microservices, Apache OFBiz, AWS, Kubernetes, and scalable backend systems
-  for E-commerce, ERP, and Omnichannel Retail.
+  Architecting high-scale enterprise systems. Specializing in Java, Spring Boot, Microservices, Apache OFBiz, and Cloud Infrastructure.
 url: "https://nameet-jain.github.io"
 
 author:
   name: Nameet Jain
   role: Engineering Manager
+  email: jnameet@gmail.com
+  linkedin: nameet-jain
+  github: nameet-jain
+  avatar: "/assets/images/profile.jpg"
+  location: Indore, India
+  bio: >
+    I am an Engineering Manager with over 14 years of experience building enterprise-grade backend systems. 
+    My focus is on scalability, performance, and reliability. I specialize in turning complex 
+    business requirements into robust technical architectures, primarily using Java, Apache OFBiz, and Cloud 
+    technologies.
+  services:
+    - title: "Backend Architecture"
+      description: "Designing scalable systems using Java, Spring Boot, and Apache OFBiz."
+      icon: "server-outline"
+    - title: "Cloud Infrastructure"
+      description: "Deploying and managing microservices on AWS/Kubernetes."
+      icon: "cloud-outline"
+    - title: "Engineering Leadership"
+      description: "Mentoring teams and managing delivery lifecycles."
+      icon: "people-outline"
 
-linkedin_username: nameet-jain
-
+# Build settings
 markdown: kramdown
-theme: minima
+permalink: /:categories/:year/:month/:day/:title/
 
-plugins:
-  - jekyll-seo-tag
+# Collections
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article class="about active" data-page="about">
+    <header>
+        <h2 class="h2 article-title">About Me</h2>
+    </header>
+
+    <section class="about-text">
+        {{ content }}
+    </section>
+
+    <!-- Services Section -->
+    {% if site.author.services %}
+    <section class="service">
+        <h3 class="h3 service-title">What I Do</h3>
+        <ul class="grid-list">
+            {% for service in site.author.services %}
+            <li class="service-item">
+                <div class="service-icon-box">
+                    <div class="icon-box"><ion-icon name="{{ service.icon }}"></ion-icon></div>
+                </div>
+                <div class="service-content-box">
+                    <h4 class="h4 service-item-title">{{ service.title }}</h4>
+                    <p class="service-item-text">{{ service.description }}</p>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+</article>

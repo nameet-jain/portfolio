@@ -1,0 +1,19 @@
+- title: Manufacturing Inventory Refactor
+  tech_stack: Java, Apache OFBiz, Groovy, ERP
+  description: Redesigned the production run inventory reservation logic (reserveProductionRunTaskInventory) to support granular task-level component tracking, improving stock accuracy and reducing manufacturing delays.
+
+- title: Enterprise Party Management System
+  tech_stack: Apache OFBiz, Business Analysis, Compliance
+  description: Led the architectural redesign of the Party model (Customer/Supplier/Contact) to support complex regulatory compliance fields. Generated detailed BRD and implementation roadmap for multi-national deployment.
+
+- title: Production Issue Analysis & Optimization
+  tech_stack: Debugging, Performance Tuning, Service Architecture
+  description: Conducted deep-dive analysis of core 'issueProduction' services to resolve critical bottlenecks in the manufacturing workflow. Implemented service-level optimizations to ensure stability under high load.
+
+- title: Cloud Migration & Microservices Strategy
+  tech_stack: AWS, Kubernetes, Terraform
+  description: Architected the migration of legacy monolithic ERP modules into scalable containerized microservices on AWS EKS, improving deployment frequency from weekly to daily cycles.
+
+- title: Omnichannel Order Management
+  tech_stack: Java, Kafka, PostgreSQL
+  description: Designed a real-time inventory synchronization engine connecting 500+ physical retail locations with e-commerce channels, ensuring 99.9% data accuracy across the network.
