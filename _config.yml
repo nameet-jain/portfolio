@@ -2,6 +2,7 @@ title: Nameet Jain | Engineering Manager | Backend & Cloud Architect
 description: >
   Architecting high-scale enterprise systems. Specializing in Java, Spring Boot, Microservices, Apache OFBiz, and Cloud Infrastructure.
 url: "https://nameet-jain.github.io"
+baseurl: "/portfolio"
 
 author:
   name: Nameet Jain
