@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<article class="portfolio active" data-page="portfolio">
+    <header>
+        <h2 class="h2 article-title">Portfolio</h2>
+    </header>
+
+    <section class="projects">
+        <div class="grid-list">
+            {% for project in site.data.projects %}
+            <div class="project-card">
+                <h3>{{ project.title }}</h3>
+                <p class="project-tags">{{ project.tech_stack }}</p>
+                <p class="project-desc">{{ project.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+</article>

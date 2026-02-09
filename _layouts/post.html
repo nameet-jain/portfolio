@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<article class="post section-padding">
+    <div class="container">
+        <div class="content-wrapper">
+            <header class="post-header" style="margin-bottom: 2rem;">
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-meta" style="color: #666;">
+                    <time datetime="{{ page.date | date_to_xmlschema }}">
+                        {{ page.date | date: "%b %-d, %Y" }}
+                    </time>
+                    {% if page.author %} • <span itemprop="author">{{ page.author }}</span>{% endif %}
+                </p>
+            </header>
+
+            <div class="post-content">
+                {{ content }}
+            </div>
+
+            <div class="post-footer" style="margin-top: 3rem; border-top: 1px solid #eee; padding-top: 2rem;">
+                <a href="/blog">← Back to Blog</a>
+            </div>
+        </div>
+    </div>
+</article>
